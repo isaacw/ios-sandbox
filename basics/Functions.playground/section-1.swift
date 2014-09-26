@@ -2,12 +2,10 @@
 
 import UIKit
 
-func calcArea(width: Int, height: Int) {
-
-    let area = width * height
-
-    println("Area of the room is \(area)")
+func calcArea(width: Int, height: Int) ->Int {
+    
+    return width * height
 
 }
 
-calcArea(10, 12)
+println("Area is \(calcArea(10, 12))")
