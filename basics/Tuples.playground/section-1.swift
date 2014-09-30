@@ -2,7 +2,7 @@
 
 import UIKit
 
-func searchNames (#name: String) -> (Bool, String) {
+func searchNames (#name: String) -> (found: Bool, description: String) {
     let names = [   "Amy",
                     "Ben",
                     "Craig",
@@ -23,8 +23,24 @@ func searchNames (#name: String) -> (Bool, String) {
     
 }
 
+
 let results = searchNames(name: "Amy")
 
+// Retrieve by element #
 results.0
 results.1
+
+// Retrieve by element name
+results.found
+results.description
+
+
+// Assign resulting tuple value to another tuple
+let (found, description) = searchNames(name: "Jon")
+//let (found, _) = searchNames(name: "Jon")
+
+// Retrieve by tuple element name
+found
+description
+
 
