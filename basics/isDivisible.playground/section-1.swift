@@ -10,9 +10,8 @@ import UIKit
 //  - Call the function with 2 numbers and then print out whether “Divisible” or “Not Divisible”
 
 
-func isDivisible (n: Int, d: Int) -> Bool? {
-    let r = remainder(Float(n), Float(d))
-    if r == 0 {
+func isDivisible (#n: Int, #d: Int) -> Bool? {
+    if n % d == 0 {
         return true
     }
     else {
@@ -20,7 +19,7 @@ func isDivisible (n: Int, d: Int) -> Bool? {
     }
 }
 
-if let result = isDivisible(6, 2) {
+if let result = isDivisible(n: 6, d: 2) {
     println("Divisible")
 }
 else {
