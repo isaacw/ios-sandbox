@@ -36,6 +36,7 @@
 		461F654B19DD103700114F62 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F655019DD103700114F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F655119DD103700114F62 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
+		461F655C19DD123900114F62 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,9 @@
 		461F652D19DD103700114F62 = {
 			isa = PBXGroup;
 			children = (
+				461F655C19DD123900114F62 /* Scratchpad.playground */,
 				461F653819DD103700114F62 /* FunFacts */,
+				461F655D19DD125200114F62 /* Playgrounds */,
 				461F654E19DD103700114F62 /* FunFactsTests */,
 				461F653719DD103700114F62 /* Products */,
 			);
@@ -110,6 +113,13 @@
 				461F655019DD103700114F62 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		461F655D19DD125200114F62 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
