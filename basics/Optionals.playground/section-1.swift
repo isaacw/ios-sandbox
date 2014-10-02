@@ -2,6 +2,10 @@
 
 import UIKit
 
+func sendNoticeTo (#apt: Int) {
+    
+}
+
 func findApt (aptNum: String) -> String? {
     let aptNumbers = ["101","202","303","404"]
     for n in aptNumbers {
@@ -13,8 +17,7 @@ func findApt (aptNum: String) -> String? {
     return nil
 }
 
-if let culprit = findApt("101") {
-    println("apt found! \(culprit)")
+if let culprit = findApt("101")?.toInt() {
+    sendNoticeTo(apt: culprit)
 }
-
 
