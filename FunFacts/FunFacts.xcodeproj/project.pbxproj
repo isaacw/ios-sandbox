@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4605A57419E3BB0400CEAB15 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4605A57319E3BB0400CEAB15 /* FactBook.swift */; };
 		461F653C19DD103700114F62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F653B19DD103700114F62 /* AppDelegate.swift */; };
 		461F653E19DD103700114F62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F653D19DD103700114F62 /* ViewController.swift */; };
 		461F654119DD103700114F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461F653F19DD103700114F62 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4605A57319E3BB0400CEAB15 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 		461F653619DD103700114F62 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		461F653A19DD103700114F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F653B19DD103700114F62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				461F654219DD103700114F62 /* Images.xcassets */,
 				461F654419DD103700114F62 /* LaunchScreen.xib */,
 				461F653919DD103700114F62 /* Supporting Files */,
+				4605A57319E3BB0400CEAB15 /* FactBook.swift */,
 			);
 			path = FunFacts;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4605A57419E3BB0400CEAB15 /* FactBook.swift in Sources */,
 				461F653E19DD103700114F62 /* ViewController.swift in Sources */,
 				461F653C19DD103700114F62 /* AppDelegate.swift in Sources */,
 			);
@@ -415,6 +419,7 @@
 				461F655719DD103700114F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		461F655819DD103700114F62 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				461F655A19DD103700114F62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
