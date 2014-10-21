@@ -18,13 +18,13 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An interesting fact" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wDQ-wv-Qgd">
-                                <rect key="frame" x="52" y="200" width="216" height="41"/>
+                                <rect key="frame" x="52" y="200" width="216" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="D7f-Mw-PUa"/>
+                                    <constraint firstAttribute="height" constant="90" id="D7f-Mw-PUa"/>
                                     <constraint firstAttribute="width" constant="216" id="FzU-cV-M5X"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMW-KW-AyV">
@@ -65,6 +65,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="funFactButton" destination="TMW-KW-AyV" id="xMw-SY-kNj"/>
                         <outlet property="funFactLabel" destination="wDQ-wv-Qgd" id="m3o-ag-DYa"/>
                     </connections>
                 </viewController>

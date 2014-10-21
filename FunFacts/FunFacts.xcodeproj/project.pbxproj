@@ -14,6 +14,7 @@
 		461F654319DD103700114F62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461F654219DD103700114F62 /* Images.xcassets */; };
 		461F654619DD103700114F62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 461F654419DD103700114F62 /* LaunchScreen.xib */; };
 		461F655219DD103700114F62 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461F655119DD103700114F62 /* FunFactsTests.swift */; };
+		464A2A4419F6327000C9CA37 /* ColorWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464A2A4319F6327000C9CA37 /* ColorWheel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		461F655019DD103700114F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		461F655119DD103700114F62 /* FunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsTests.swift; sourceTree = "<group>"; };
 		461F655C19DD123900114F62 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
+		464A2A4319F6327000C9CA37 /* ColorWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorWheel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,6 @@
 		461F652D19DD103700114F62 = {
 			isa = PBXGroup;
 			children = (
-				461F655C19DD123900114F62 /* Scratchpad.playground */,
 				461F653819DD103700114F62 /* FunFacts */,
 				461F655D19DD125200114F62 /* Playgrounds */,
 				461F654E19DD103700114F62 /* FunFactsTests */,
@@ -85,6 +86,7 @@
 				461F653B19DD103700114F62 /* AppDelegate.swift */,
 				461F653D19DD103700114F62 /* ViewController.swift */,
 				461F653F19DD103700114F62 /* Main.storyboard */,
+				464A2A4319F6327000C9CA37 /* ColorWheel.swift */,
 				461F654219DD103700114F62 /* Images.xcassets */,
 				461F654419DD103700114F62 /* LaunchScreen.xib */,
 				461F653919DD103700114F62 /* Supporting Files */,
@@ -121,6 +123,7 @@
 		461F655D19DD125200114F62 /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				461F655C19DD123900114F62 /* Scratchpad.playground */,
 			);
 			name = Playgrounds;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464A2A4419F6327000C9CA37 /* ColorWheel.swift in Sources */,
 				4605A57419E3BB0400CEAB15 /* FactBook.swift in Sources */,
 				461F653E19DD103700114F62 /* ViewController.swift in Sources */,
 				461F653C19DD103700114F62 /* AppDelegate.swift in Sources */,

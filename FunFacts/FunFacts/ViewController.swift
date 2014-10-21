@@ -11,8 +11,10 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var funFactLabel: UILabel!
+    @IBOutlet weak var funFactButton: UIButton!
     
     let factBook = FactBook()
+    let colorWheel = ColorWheel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFunFact() {
+        let newColor = colorWheel.randomColor()
+        view.backgroundColor = newColor
+        funFactButton.tintColor = newColor
         funFactLabel.text = factBook.randomFact()
     }
 }
